@@ -6,7 +6,7 @@ from src.classifier import classify_companies # type: ignore
 def main():
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
-    print("🔍 Loading data...")
+    print(" Loading data...")
     df_companies, df_taxonomy = load_data(COMPANY_FILE, TAXONOMY_FILE)
 
     print(" Preprocessing...")
